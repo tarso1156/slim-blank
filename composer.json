@@ -1,0 +1,21 @@
+{
+    "name": "tarso/slim",
+    "require": {
+        "slim/slim": "^4.5",
+        "slim/psr7": "^1.2",
+        "firebase/php-jwt": "^5.2",
+        "vlucas/phpdotenv": "^5.2",
+        "php-di/php-di": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Tarso",
+            "email": "tarso.luz@geinfo.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gepanel\\": "src/"
+        }
+    }
+}
